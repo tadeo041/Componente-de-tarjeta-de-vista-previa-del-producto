@@ -1,0 +1,184 @@
+body {
+/* Modelo de caja */
+  display: flex;
+  overflow-x: auto;
+  box-sizing: border-box;
+
+  /* Flexbox y Grid */
+  justify-content: center;
+  align-items: center;
+
+  /* Dimensiones */
+  min-height: 100vh;
+
+  /* Márgenes */
+  margin: 0;
+
+  /* Relleno */
+  padding: 0;
+
+  /* Fondos */
+  background: hsl(30,38%,92%);}
+
+*, *::before, *::after {
+/* Modelo de caja */
+  box-sizing: inherit;}
+
+.States {
+/* Modelo de caja */
+  display: flex;
+  overflow: hidden;
+
+  /* Flexbox y Grid */
+  flex-direction: row;
+
+  /* Dimensiones */
+  width: min(95vw, 700px);
+  min-width: 320px;
+  height: auto;
+
+  /* Bordes */
+  border-radius: 25px;
+
+  /* Fondos */
+  background: #fff;}
+
+.Img-Product {
+/* Dimensiones */
+  width: 50%;
+  height: auto;
+
+  /* Otras propiedades */
+  object-fit: cover;}
+
+.Contenedor {
+/* Modelo de caja */
+  display: flex;
+
+  /* Flexbox y Grid */
+  flex-direction: column;
+  gap: 24px;
+
+  /* Dimensiones */
+  width: 50%;
+
+  /* Relleno */
+  padding: 24px;}
+
+.Secondary-Title {
+/* Márgenes */
+  margin: 0;
+
+  /* Tipografía */
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: clamp(12px, 1.8vw, 14px);
+
+  /* Colores y efectos */
+  color: hsl(228,12%,48%);
+
+  /* Otras propiedades */
+  letter-spacing: 4px;}
+
+.Main-Title {
+/* Márgenes */
+  margin: 0;
+
+  /* Tipografía */
+  font-family: 'Fraunces',serif;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: clamp(20px, 4vw, 42px);
+
+  /* Colores y efectos */
+  color: hsl(212,21%,14%);}
+
+.Descripcion {
+/* Márgenes */
+  margin: 0;
+
+  /* Tipografía */
+  font-family: 'Montserrat',sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: clamp(14px, 2.2vw, 16px);
+
+  /* Colores y efectos */
+  color: hsl(228,12%,48%);}
+
+.Prices {
+/* Modelo de caja */
+  display: flex;
+
+  /* Flexbox y Grid */
+  align-items: center;
+  gap: 16px;}
+
+.Price {
+/* Márgenes */
+  margin: 0;
+
+  /* Tipografía */
+  font-family: 'Fraunces',serif;
+  font-weight: 700;
+  font-size: clamp(22px, 4vw, 32px);
+
+  /* Colores y efectos */
+  color: hsl(158,36%,37%);}
+
+.Crossed-Out-Price {
+/* Márgenes */
+  margin: 0;
+
+  /* Tipografía */
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: line-through 1px currentColor;
+  font-size: clamp(12px, 2vw, 16px);
+
+  /* Colores y efectos */
+  color: hsl(228,12%,48%);}
+
+.button {
+/* Modelo de caja */
+  display: flex;
+
+  /* Flexbox y Grid */
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  /* Dimensiones */
+  width: auto;
+
+  /* Relleno */
+  padding: 14px 18px;
+
+  /* Bordes */
+  border: none;
+  border-radius: 12px;
+
+  /* Fondos */
+  background: hsl(158,36%,37%);
+
+  /* Colores y efectos */
+  color: #fff;
+
+  /* Interactividad */
+  cursor: pointer;}
+
+.button:hover {
+/* Fondos */
+  background: hsl(158,42%,18%);}
+
+.Text-Button {
+/* Tipografía */
+  font: 700 clamp(14px, 2vw, 16px) 'Montserrat',sans-serif;
+  line-height: 1;}
+
+.material-symbols-outlined {
+/* Tipografía */
+  font-size: clamp(18px, 2.5vw, 20px);
+
+  /* Colores y efectos */
+  color: #fff;}
